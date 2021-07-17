@@ -1,0 +1,6 @@
+server:
+  port: 8014  # 修正port 避免與javaw衝突
+  
+spring:  jpa:    database-platform: org.hibernate.dialect.H2Dialect    open-in-view: true  data:    jpa:      repositories:        bootstrap-mode: default
+coindesk:
+  url: https://api.coindesk.com/v1/bpi/currentprice.json
