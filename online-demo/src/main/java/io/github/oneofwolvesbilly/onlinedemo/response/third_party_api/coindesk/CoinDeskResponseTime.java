@@ -42,6 +42,12 @@ public class CoinDeskResponseTime {
 	public void setUpdateduk(String updateduk) {
 		this.updateduk = updateduk;
 	}
+
+	@Override
+	public String toString() {
+		return "CoinDeskResponseTime [updated=" + updated + ", updatedISO=" + updatedISO + ", updateduk=" + updateduk
+				+ "]";
+	}
 	
 	
 }

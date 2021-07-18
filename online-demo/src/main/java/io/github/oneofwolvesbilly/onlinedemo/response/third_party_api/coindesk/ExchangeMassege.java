@@ -64,6 +64,11 @@ public class ExchangeMassege {
 	public void setRate_float(Float rate_float) {
 		this.rate_float = rate_float;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "ExchangeMassege [code=" + code + ", symbol=" + symbol + ", rate=" + rate + ", description="
+				+ description + ", rate_float=" + rate_float + "]";
+	}
 	
 }
