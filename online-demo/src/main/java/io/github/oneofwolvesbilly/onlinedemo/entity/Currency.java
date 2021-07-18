@@ -66,5 +66,11 @@ public class Currency extends BaseEntity{
 	public void setCurrencyName(String currencyName) {
 		this.currencyName = currencyName;
 	}
+
+	@Override
+	public String toString() {
+		return "Currency [seqId=" + seqId + ", currencyCode=" + currencyCode + ", currencyName=" + currencyName + "]";
+	}
+	
 	
 }

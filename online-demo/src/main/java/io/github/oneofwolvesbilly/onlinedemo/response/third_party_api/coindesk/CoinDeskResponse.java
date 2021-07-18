@@ -53,6 +53,12 @@ public class CoinDeskResponse {
 	public void setBpi(CoinDeskResponseBpi bpi) {
 		this.bpi = bpi;
 	}
+
+	@Override
+	public String toString() {
+		return "CoinDeskResponse [time=" + time + ", disclaimer=" + disclaimer + ", chartName=" + chartName + ", bpi="
+				+ bpi + "]";
+	}
 	
 	
 }

@@ -47,6 +47,10 @@ public class CoinDeskResponseBpi {
 	public void setEur(ExchangeMassege eur) {
 		this.eur = eur;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "CoinDeskResponseBpi [usd=" + usd + ", gbp=" + gbp + ", eur=" + eur + "]";
+	}
 	
 }
